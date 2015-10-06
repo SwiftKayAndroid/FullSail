@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Full Sail Communicate</string>
+    <string name="intro_one">Take control of communication during your time at Full Sail. Start study groups, group projects, communicate
+    with professors and more.</string>
+    <string name="intro_two">Get instant notifications when you receive messages. Also you can send and receive files, pictures, and links.</string>
+    <string name="next_string">Next</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

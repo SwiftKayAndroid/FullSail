@@ -1,0 +1,108 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome!"
+        android:id="@+id/tvintrowelcome"
+        android:textColor="@color/full_sail_orange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/etintroemail"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etintropassword"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/outline_button"
+        android:gravity="center"
+        android:hint="Password"
+        android:textColorHint="@color/hint_color"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etintroemail"
+        android:layout_above="@+id/etintropassword"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/outline_button"
+        android:hint="someone@fullsail.edu"
+        android:gravity="center"
+        android:textColorHint="@color/hint_color"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        android:layout_alignRight="@+id/etintropassword"
+        android:layout_alignEnd="@+id/etintropassword"
+        android:layout_alignLeft="@+id/etintropassword"
+        android:layout_alignStart="@+id/etintropassword" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/btnlogin"
+        android:layout_below="@+id/etintropassword"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="21dp"
+        android:visibility="invisible" />
+
+<com.swiftkaydevelopment.fullsailcommunicate.DottedTabView
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:id="@+id/dottedView"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true"
+android:orientation="horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_string"
+        android:id="@+id/btn_intro_next"
+        android:background="@null"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivintrologo"
+        android:src="@drawable/logo_extended"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
+
+</RelativeLayout>

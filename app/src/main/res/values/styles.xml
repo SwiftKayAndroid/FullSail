@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <color name="full_sail_orange">#e76d2d</color>
+    <color name="full_sail_dark_gray">#35332a</color>
+    <color name="full_sail_medium_gray">#9b9b9b</color>
+    <color name="white">#ffffff</color>
+    <color name="hint_color">#80ea8868</color>
+
+</resources>
