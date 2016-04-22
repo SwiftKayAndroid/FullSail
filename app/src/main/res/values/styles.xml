@@ -5,10 +5,17 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <color name="full_sail_orange">#e76d2d</color>
-    <color name="full_sail_dark_gray">#35332a</color>
-    <color name="full_sail_medium_gray">#9b9b9b</color>
-    <color name="white">#ffffff</color>
-    <color name="hint_color">#80ea8868</color>
+    <style name="FullSailToolBar" parent="AppTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
 
 </resources>

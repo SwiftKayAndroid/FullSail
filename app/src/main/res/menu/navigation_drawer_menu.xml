@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menuNavGroupMain"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navMenuHome"
+            android:title="@string/home"
+            android:icon="@mipmap/ic_home_white_24dp" />
+        <item
+            android:id="@+id/navMenuCourses"
+            android:title="@string/courses"
+            android:icon="@mipmap/ic_library_white_24dp"/>
+    </group>
+    <group
+        android:id="@+id/menuNavGroupSecondary"
+        android:checkableBehavior="single">
+        <item android:title="@string/profile">
+            <menu>
+                <item
+                    android:id="@+id/navMenuProfile"
+                    android:title="@string/profile"
+                    android:icon="@mipmap/ic_account_box_outline_white_24dp"/>
+                <item
+                    android:id="@+id/navMenuSchedule"
+                    android:title="@string/schedule"
+                    android:visible="false"
+                    android:icon="@mipmap/ic_calendar_clock_white_24dp"/>
+                <item
+                    android:id="@+id/navMenuGrades"
+                    android:title="@string/grades"
+                    android:icon="@mipmap/ic_certificate_white_24dp"/>
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/menuNavModeration"
+        android:checkableBehavior="single">
+        <item android:title="@string/other">
+            <menu>
+                <item
+                    android:id="@+id/navMenuAttendance"
+                    android:title="@string/attendance"
+                    android:icon="@mipmap/ic_chart_line_white_24dp"/>
+
+                <item
+                    android:id="@+id/navMenuFeedback"
+                    android:title="@string/feedback"
+                    android:visible="true"
+                    android:icon="@mipmap/ic_pencil_white_24dp"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>

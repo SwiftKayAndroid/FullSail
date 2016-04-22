@@ -1,10 +1,27 @@
 <resources>
-    <string name="app_name">Full Sail Communicate</string>
+    <string name="app_name">Full Sail</string>
     <string name="intro_one">Take control of communication during your time at Full Sail. Start study groups, group projects, communicate
     with professors and more.</string>
     <string name="intro_two">Get instant notifications when you receive messages. Also you can send and receive files, pictures, and links.</string>
     <string name="next_string">Next</string>
-
+    <string name="only_fullsail">Only FullSail students and faculty can use this app</string>
+    <string name="password_cant_be_empty">Password can\'t be empty</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="full_sail_api_key">TBD</string>
+
+    <!--Navigation Drawer Strings -->
+    <string name="home">Home</string>
+    <string name="courses">Courses</string>
+    <string name="profile">Profile</string>
+    <string name="schedule">Schedule</string>
+    <string name="grades">Grades</string>
+    <string name="attendance">Attendance</string>
+    <string name="feedback">Feedback</string>
+    <string name="other">Other</string>
+
+    <string name="demo_string">This is a demo version of Full Sail connect. Currently most or all data is mocked.</string>
+
 </resources>

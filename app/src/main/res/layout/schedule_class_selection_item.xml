@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/activity_margin"
+    android:paddingBottom="@dimen/activity_margin">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbClassScheduleSelection"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/activity_margin"
+        tools:text="Pschology of Play"
+        android:checked="false"
+        android:ellipsize="end"
+        android:textColor="@color/white" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinScheduleLabSelection"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_toRightOf="@+id/cbClassScheduleSelection"
+        android:layout_toEndOf="@+id/cbClassScheduleSelection"
+        android:layout_marginLeft="@dimen/activity_margin" />
+</RelativeLayout>

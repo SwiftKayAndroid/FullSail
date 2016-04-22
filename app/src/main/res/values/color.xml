@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="full_sail_orange">#e76d2d</color>
+    <color name="full_sail_dark_gray">#35332a</color>
+    <color name="full_sail_medium_gray">#9b9b9b</color>
+    <color name="white">#ffffff</color>
+    <color name="hint_color">#80ea8868</color>
+    <color name="dark_gray">#363636</color>
+    <color name="divider_gray">#a6a5a5</color>
+
+    <color name="colorPrimary">@color/full_sail_orange</color>
+    <color name="primaryDark">#c25820</color>
+    <color name="accentColor">#f1a102</color>
+
+</resources>

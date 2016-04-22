@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/attendanceItemClassName"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:ellipsize="end"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/attendanceItemStartDate"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/attendanceItemClassName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="end"
+        android:layout_marginRight="@dimen/activity_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/attendanceItemSection"
+        android:layout_below="@+id/attendanceItemStartDate"
+        android:layout_alignRight="@+id/attendanceItemStartDate"
+        android:layout_alignEnd="@+id/attendanceItemStartDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/attendanceItemAttendance"
+        android:layout_below="@+id/attendanceItemSection"
+        android:layout_alignLeft="@+id/attendanceItemClassName"
+        android:layout_alignStart="@+id/attendanceItemClassName"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/gradesItemStatus"
+        android:layout_alignTop="@+id/attendanceItemAttendance"
+        android:layout_alignRight="@+id/attendanceItemStartDate"
+        android:layout_alignEnd="@+id/attendanceItemStartDate" />
+</RelativeLayout>
